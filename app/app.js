@@ -22,9 +22,9 @@ app.use((req, res, next) => {
 //res.render('home',null);
 //})
 
-const port = "8080";
+const port = "80";
 const host = "0.0.0.0";
 app.listen(port, host);
 console.log(
-  `Node Js Server is running on the host: ${host} on the port: ${port} - welcome to the aws training`
+  `Node Js Server from ContainerAWS is running on the host: ${host} on the port: ${port} - welcome to the aws training`
 );
